@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
 }
 body {
 	margin: 0;
@@ -12,22 +13,46 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-.container{
+.container {
 	width: 95%;
 	margin: 0 auto;
 }
-.title{
+.title {
 	font-size: 2.5rem;
 }
-.title span{
+.title span {
 	font-weight: 300;
 	font-size: 1em;
+}
+@media (min-width: 60rem) {
+	.title{
+		font-size: 3.2rem;
+	}
+
+}
+.button {
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: 0.5em 1.75em;
+}
+.button-small {
+	font-size: 0.7rem;
+	font-weight: 700;
+}
+.button:hover,
+.button:focus {
+	background: #ed594e;
 }
 header {
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin-top: 1em;
+	margin: 1em;
 }
 nav ul {
 	margin: 0;
@@ -50,23 +75,29 @@ nav a:hover,
 nav a:focus {
 	color: #c1c1c1;
 }
-
-.home-main {
+.home {
 	background-image: url(file:///Users/shivengupta/Desktop/shivengup1851.github.io/imgs/bghome.jpg);
+	background-size: cover;
+	background-position: center;
 	padding: 10em 0;
 	color: white;
-
 }
-.home-about {
+@media (min-width: 60rem) {
+	.home {
+		height: 100vh;
+		padding-top: 30vh;
+	}
+}
+.about {
 	overflow: hidden;
 	text-align: center;
-	background:  #34495E;
+	background: white;
 	padding: 60px;
 }
-.home-about h1 {
+.about h1 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	color: white;
+	color: #34495e;
 	font-size: 34px;
 }
 .border {
@@ -74,7 +105,7 @@ nav a:focus {
 	margin: auto;
 	width: 150px;
 	height: 3px;
-	background: #ED594E;
+	background: #ed594e;
 	margin-bottom: 30px;
 }
 .ps {
@@ -91,7 +122,7 @@ nav a:focus {
 .ps a img {
 	width: 100%;
 	filter: grayscale(100%);
-	transition: 0.5s all;
+	/*transition: 0.5s all;*/
 }
 .ps a:hover > img {
 	filter: none;
@@ -106,4 +137,47 @@ nav a:focus {
 }
 .section:target { 
 	height: auto;
+} 
+.portfolio {
+	margin: 3em 0;
 }
+.item {
+	margin: 0;
+	position: relative;
+}
+.item img {
+	display: block;
+
+}
+.desc {
+	position: absolute;
+	z-index: 100;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: white;
+	background: rgba(0,0,0,0.55);
+	padding-bottom: 2em;
+}
+.desc p {
+	margin: 1em;
+}
+@media (min-width: 35rem) {
+	.item {
+		width: 50%;
+		float: left;
+	}
+}
+@media (min-width: 60rem) {
+	.item {
+		width: 33.33333333%;
+		overflow: hidden;
+	}
+	.desc {
+		transform: translateY(150%);
+	}
+	.item:hover .desc {
+		transform: translateY(0%);
+	}
+}
+
