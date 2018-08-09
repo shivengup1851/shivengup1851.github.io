@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 }
 body {
@@ -47,7 +47,7 @@ nav a {
 	color: white;
 }
 nav a:hover,
-nav a:focus{
+nav a:focus {
 	color: #c1c1c1;
 }
 
@@ -57,45 +57,19 @@ nav a:focus{
 	color: white;
 
 }
-
-/*
-.nav {
-	text-transform: uppercase;
-	background-color: #000000;
-	color: #FFFFFF;
-	list-style: none;
-	text-align: center;
-	padding: 15px 0 15px 0;
-
-}
-
-.nav > li {
-	display: inline-block;
-	padding: 0 25px 0 25px;
-}
-
-.nav > li > a {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-.nav > li > a:hover {
-	color: #c1c1c1;
-}
-*/
-.home-about{
+.home-about {
 	overflow: hidden;
 	text-align: center;
 	background:  #34495E;
 	padding: 60px;
 }
-.home-about h1{
+.home-about h1 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	color: white;
 	font-size: 34px;
 }
-.border{
+.border {
 	display: block;
 	margin: auto;
 	width: 150px;
@@ -103,10 +77,10 @@ nav a:focus{
 	background: #ED594E;
 	margin-bottom: 30px;
 }
-.ps{
+.ps {
 	margin-bottom: 30px;
 }
-.ps a{
+.ps a {
 	display: inline-block;
 	margin: 0 30px;
 	width: 165px;
@@ -114,15 +88,15 @@ nav a:focus{
 	overflow: hidden;
 	border-radius: 50%;
 }
-.ps a img{
+.ps a img {
 	width: 100%;
 	filter: grayscale(100%);
 	transition: 0.5s all;
 }
-.ps a:hover > img{
+.ps a:hover > img {
 	filter: none;
 }
-.section{
+.section {
 	width: 600px;
 	margin: auto;
 	font-size: 20px;
@@ -130,6 +104,6 @@ nav a:focus{
 	text-align: center;
 	overflow: hidden;
 }
-.section:target{
+.section:target { 
 	height: auto;
 }
