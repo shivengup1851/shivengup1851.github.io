@@ -78,7 +78,7 @@ nav a:focus {
 	color: #c1c1c1;
 }
 .home {
-	background-image: url(shivengup1851.github.io/imgs/bghome.jpg);
+	background-image: url(https://shivengup1851.github.io/imgs/bghome.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10em 0;
@@ -91,7 +91,7 @@ nav a:focus {
 	}
 }
 .about {
-	background-image: url(shivengup1851.github.io/imgs/collage.jpg);
+	background-image: url(https://shivengup1851.github.io/imgs/collage.jpg);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -148,7 +148,7 @@ nav a:focus {
 	height: auto;
 } 
 .portfolio {
-	background-image: url(shivengup1851.github.io/imgs/bgport.jpg);
+	background-image: url(https://shivengup1851.github.io/imgs/bgport.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -205,7 +205,7 @@ nav a:focus {
 	}
 }
 .contact{
-	background-image: url(shivengup1851.github.io/imgs/bgcontact.jpg);
+	background-image: url(https://shivengup1851.github.io/imgs/bgcontact.jpg);
 	background-size: cover;
 	background-position: center;
 }
