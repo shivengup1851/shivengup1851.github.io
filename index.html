@@ -5,10 +5,26 @@
 	<meta charset="UTF-8">
 	<title>shivengup1851.github.io</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function() {
+	  $("a").on('click', function(event) {
+	    if (this.hash !== "") {
+	      event.preventDefault();
+	      var hash = this.hash;
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 900, function(){
+	        window.location.hash = hash;
+	      });
+	    } 
+	  });
+	});
+	</script>
 	<style>
 		body {
     		font-family: 'Raleway', sans-serif;
-    		font-size: 18px;
+    		font-size: 20px;
 		}
 	</style>
 </head>
@@ -18,15 +34,16 @@
 	<header>
 		<nav>
 			<ul class="nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#port">Projects</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<section class="home">
+	<section class="home" id="home">
+
 		<div class="container">
 			<h1 class="title"> Hello, I'm <span id="span1" style="color:#ED594E; display:inline;">Shiven Gupta</span>.
 				<span id="span2" style="display:block;"> I'm an aspiring programmer.</span>
@@ -35,7 +52,8 @@
 		</div>
 	</section>
 
-	<section class="about">
+	<section class="about" id="about">
+	
 		<h1> Who am I? </h1>
 		<span class="border"></span>
 		<div class="ps">
@@ -43,15 +61,16 @@
 		</div>
 		<div class="section" id="me">
 		<span class="border"></span>
-			<p style="color: #34495e;">
+			<p>
 				My name is Shiven Gupta and I am a senior at Waubonsie Valley High School. I enjoy listening to music and cooking. At school, I lead our Business Professionals of America chapter, Model United Nations chapter, and Indian Student Association chapter. I also founded our school's Hack Club chapter, which allows students to participate in numerous coding workshops and learn more about computer science. Coding is a passion of mine, and I am heavily interested in cloud computing and cybersecurity. 
 			</p>
 		</div>
 	</section>
 
-	<section class="portfolio">
+	<section class="portfolio" id="port">
+		
 		<h1>Projects</h1>
-
+		<span class="border"></span>
 		<figure class="item">
 			<img src="imgs/calc.png"
 			alt="portfolio item">
@@ -78,6 +97,5 @@
 				<a href="" class="button button-small">Github</a>
 			</figcaption>
 		</figure>
-
 </body>
 </html>
