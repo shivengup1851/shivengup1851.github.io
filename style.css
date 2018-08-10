@@ -229,11 +229,8 @@ nav a:focus {
 	color: #FFFFFF;
 	font-size: 22px;
 }
-form {
-	
-}
 .form-control{
-	width: 600px;
+	width: 800px;
 	background: transparent;
 	border: none;
 	outline: none;
@@ -259,7 +256,6 @@ form .submit {
 form .submit:hover,
 form .submit:focus {
 	background-color: #ed594e;
-
 }
 
 
