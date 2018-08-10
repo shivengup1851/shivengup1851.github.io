@@ -54,6 +54,7 @@ header {
 	left: 0;
 	right: 0;
 	margin: 0em;
+	z-index: 500;
 }
 nav ul {
 	margin: 0;
@@ -77,7 +78,7 @@ nav a:focus {
 	color: #c1c1c1;
 }
 .home {
-	background-image: url(file:///Users/shivengupta/Desktop/shivengup1851.github.io/imgs/bghome.jpg);
+	background-image: url(shivengup1851.github.io/imgs/bghome.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 10em 0;
@@ -90,19 +91,21 @@ nav a:focus {
 	}
 }
 .about {
+	background-image: url(shivengup1851.github.io/imgs/collage.jpg);
+	background-size: cover;
+	background-position: center;
 	overflow: hidden;
 	text-align: center;
-	background: white;
 	padding: 70px;
 }
 .about h1 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	color: #34495e;
+	color: #FFFFFF;
 	font-size: 34px;
 }
 .about p {
-	color: #34495e;
+	color: #FFFFFF;
 	letter-spacing: 1.5px;
 }
 .border {
@@ -145,8 +148,9 @@ nav a:focus {
 	height: auto;
 } 
 .portfolio {
-	
-	background-color: yellow;
+	background-image: url(shivengup1851.github.io/imgs/bgport.jpg);
+	background-size: cover;
+	background-position: center;
 }
 @media (min-width: 60rem) {
 	.portfolio {
@@ -158,7 +162,7 @@ nav a:focus {
 .portfolio h1 {
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #34495e;
+	color: #FFFFFF;
 	font-size: 34px;
 }
 .item {
@@ -200,4 +204,64 @@ nav a:focus {
 		transform: translateY(0%);
 	}
 }
+.contact{
+	background-image: url(shivengup1851.github.io/imgs/bgcontact.jpg);
+	background-size: cover;
+	background-position: center;
+}
+@media (min-width: 60rem) {
+	.contact {
+		height: 100vh;
+		padding-top: 9vh;
+	
+	}
+}
+.contact-title {
+	padding: 20px;
+}
+.contact-title h1 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 34px;
+	line-height: 10px
+}
+.contact-title h2 {
+	color: #FFFFFF;
+	font-size: 22px;
+}
+form {
+	
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form .submit {
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: 0.5em 1.75em;
+	width: 225px;
+}
+form .submit:hover,
+form .submit:focus {
+	background-color: #ed594e;
+
+}
+
+
+
 
