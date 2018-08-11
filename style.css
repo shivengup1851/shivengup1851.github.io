@@ -274,41 +274,28 @@ form .submit:focus {
 	margin: 0 10px;
 	cursor: pointer;
 	border-radius: 50%;
-	border: 3px solid #FFFFFF;
 	float: left;
 }
 .wrapper ul li .fa {
 	color: #FFFFFF;
 	margin-top: 10px;
 }
-.wrapper ul li:hover:nth-child(1) {
-	border: 5px solid #25d366;
-	box-shadow: 0 0 15px #25d366;
-}
+
 .wrapper ul li:hover .fa-phone {
 	color: #25d366;
 	text-shadow: 0 0 15px #25d366;
 }
-.wrapper ul li:hover:nth-child(2) {
-	border: 5px solid #35465d;
-	box-shadow: 0 0 15px #35465d;
-}
+
 .wrapper ul li:hover .fa-envelope {
-	color: #35465d;
+	color: #FFFFFF;
 	text-shadow: 0 0 15px #35465d;
 }
-.wrapper ul li:hover:nth-child(3) {
-	border: 5px solid #007bb5;
-	box-shadow: 0 0 15px #007bb5;
-}
+
 .wrapper ul li:hover .fa-linkedin-in {
 	color: #007bb5;
 	text-shadow: 0 0 15px #007bb5;
 }
-.wrapper ul li:hover:nth-child(4) {
-	border: 5px solid #c9510c;
-	box-shadow: 0 0 15px #c9510c;
-}
+
 .wrapper ul li:hover .fa-github {
 	color: #c9510c;
 	text-shadow: 0 0 15px #c9510c;
