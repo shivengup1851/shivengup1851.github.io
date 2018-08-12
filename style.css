@@ -96,7 +96,7 @@ nav a:focus {
 	background-position: center;
 	overflow: hidden;
 	text-align: center;
-	padding: 70px;
+	padding: 60px;
 }
 .about h1 {
 	text-transform: uppercase;
@@ -105,8 +105,12 @@ nav a:focus {
 	font-size: 34px;
 }
 .about p {
-	color: #FFFFFF;
+	color: #ffffff;
 	letter-spacing: 1.5px;
+}
+.about p a {
+	text-decoration: none;
+	color: #4EE2EC;
 }
 .border {
 	display: block;
@@ -152,7 +156,7 @@ nav a:focus {
 	background-size: cover;
 	background-position: center;
 }
-@media (min-width: 60rem) {
+@media (min-width: 760px) {
 	.portfolio {
 		height: 100vh;
 		padding-top: 9vh;
@@ -186,7 +190,7 @@ nav a:focus {
 .desc p {
 	margin: 1em;
 }
-@media (min-width: 35rem) {
+@media (min-width: 760px) {
 	.item {
 		width: 50%;
 		float: left;
@@ -209,11 +213,10 @@ nav a:focus {
 	background-size: cover;
 	background-position: center;
 }
-@media (min-width: 60rem) {
+@media (min-width: 760px) {
 	.contact {
 		height: 100vh;
 		padding-top: 9vh;
-	
 	}
 }
 .contact-title {
@@ -262,25 +265,24 @@ form .submit:focus {
 	text-align: center;
 	align-items: center;
 	display: flex;
-	left: 410px;
+	left: 358px;
 }
 .wrapper ul {
 	list-style: none;
 }
 .wrapper ul li {
+	font-size: 26px;
 	width: 75px;
 	height: 75px;
 	line-height: 75px;
-	margin: 0 10px;
+	margin: 0 22px;
 	cursor: pointer;
-	border-radius: 50%;
 	float: left;
 }
 .wrapper ul li .fa {
 	color: #FFFFFF;
 	margin-top: 10px;
 }
-
 .wrapper ul li:hover .fa-phone {
 	color: #25d366;
 	text-shadow: 0 0 15px #25d366;
@@ -288,7 +290,7 @@ form .submit:focus {
 
 .wrapper ul li:hover .fa-envelope {
 	color: #FFFFFF;
-	text-shadow: 0 0 15px #35465d;
+	text-shadow: 0 0 15px #FFFFFF;
 }
 
 .wrapper ul li:hover .fa-linkedin-in {
