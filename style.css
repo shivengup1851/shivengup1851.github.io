@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	transition: all ease-in-out 250ms;
 }
+
 body {
 	margin: 0;
 	padding: 0;
@@ -9,27 +10,32 @@ body {
 	font-size: 20px;
 	text-align: center;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
 }
+
 .container {
 	width: 95%;
 	margin: 0 auto;
 }
+
 .title {
 	font-size: 2.5rem;
 }
+
 .title span {
 	font-weight: 300;
 	font-size: 1em;
 }
+
 @media (min-width: 60rem) {
 	.title{
 		font-size: 3.2rem;
 	}
-
 }
+
 .button {
 	color: white;
 	display: inline-block;
@@ -40,10 +46,12 @@ img {
 	border-style: solid;
 	padding: 0.5em 1.75em;
 }
+
 .button-small {
 	font-size: 0.9rem;
 	font-weight: 800;
 }
+
 .button:hover,
 .button:focus {
 	background: #ed594e;
@@ -56,15 +64,18 @@ header {
 	margin: 0em;
 	z-index: 500;
 }
+
 nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 nav li {
 	display: inline-block;
 	margin: 1em;
 }
+
 nav a {
 	font-weight: 900;
 	text-decoration: none;
@@ -73,10 +84,12 @@ nav a {
 	padding: 0.5em;
 	color: white;
 }
+
 nav a:hover,
 nav a:focus {
 	color: #c1c1c1;
 }
+
 .home {
 	background-image: url(https://shivengup1851.github.io/imgs/bghome.jpg);
 	background-size: cover;
@@ -84,12 +97,14 @@ nav a:focus {
 	padding: 10em 0;
 	color: white;
 }
-@media (min-width: 760px) {
+
+@media (min-width: 60rem) {
 	.home {
 		height: 100vh;
 		padding-top: 30vh;
 	}
 }
+
 .about {
 	background-image: url(https://shivengup1851.github.io/imgs/collage.jpg);
 	background-size: cover;
@@ -98,20 +113,24 @@ nav a:focus {
 	text-align: center;
 	padding: 60px;
 }
+
 .about h1 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	color: #FFFFFF;
 	font-size: 34px;
 }
+
 .about p {
 	color: #ffffff;
 	letter-spacing: 1.5px;
 }
+
 .about p a {
 	text-decoration: none;
 	color: #4EE2EC;
 }
+
 .border {
 	display: block;
 	margin: auto;
@@ -120,6 +139,7 @@ nav a:focus {
 	background: #ed594e;
 	margin-bottom: 30px;
 }
+
 .ps {
 	margin-bottom: 30px;
 }
@@ -133,13 +153,16 @@ nav a:focus {
 	overflow: hidden;
 	border-radius: 50%;
 }
+
 .ps a img {
 	width: 100%;
 	filter: grayscale(100%);
 }
+
 .ps a:hover > img {
 	filter: none;
 }
+
 .section {
 	width: 600px;
 	margin: auto;
@@ -148,35 +171,40 @@ nav a:focus {
 	text-align: center;
 	overflow: hidden;
 }
+
 .section:target { 
 	height: auto;
-} 
+}
+
 .portfolio {
 	background-image: url(https://shivengup1851.github.io/imgs/bgport.jpg);
 	background-size: cover;
 	background-position: center;
 }
-@media (min-width: 760px) {
+
+@media (min-width: 60rem) {
 	.portfolio {
 		height: 100vh;
 		padding-top: 9vh;
-	
 	}
 }
+
 .portfolio h1 {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: #FFFFFF;
 	font-size: 34px;
 }
+
 .item {
 	margin: 0;
 	position: relative;
 }
+
 .item img {
 	display: block;
-
 }
+
 .desc {
 	position: absolute;
 	z-index: 100;
@@ -187,15 +215,18 @@ nav a:focus {
 	background: rgba(0,0,0,0.55);
 	padding-bottom: 0.6em;
 }
+
 .desc p {
 	margin: 1em;
 }
+
 @media (min-width: 760px) {
 	.item {
 		width: 50%;
 		float: left;
 	}
 }
+
 @media (min-width: 60rem) {
 	.item {
 		width: 33.33333333%;
@@ -208,31 +239,37 @@ nav a:focus {
 		transform: translateY(0%);
 	}
 }
-.contact{
+
+.contact {
 	background-image: url(https://shivengup1851.github.io/imgs/bgcontact.jpg);
 	background-size: cover;
 	background-position: center;
 }
-@media (min-width: 760px) {
+
+@media (min-width: 60rem) {
 	.contact {
 		height: 100vh;
 		padding-top: 9vh;
 	}
 }
+
 .contact-title {
 	padding: 20px;
 }
+
 .contact-title h1 {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-size: 34px;
 	line-height: 10px;
 }
+
 .contact-title h2 {
 	color: #FFFFFF;
 	font-size: 22px;
 }
-.form-control{
+
+.form-control {
 	width: 650px;
 	background: transparent;
 	border: none;
@@ -242,9 +279,11 @@ nav a:focus {
 	font-size: 18px;
 	margin-bottom: 16px;
 }
-input{
+
+input {
 	height: 45px;
 }
+
 form .submit {
 	color: white;
 	display: inline-block;
@@ -256,10 +295,12 @@ form .submit {
 	padding: 0.5em 1.75em;
 	width: 225px;
 }
+
 form .submit:hover,
 form .submit:focus {
 	background-color: #ed594e;
 }
+
 .wrapper {
 	position: absolute;
 	text-align: center;
@@ -267,9 +308,11 @@ form .submit:focus {
 	display: flex;
 	left: 358px;
 }
+
 .wrapper ul {
 	list-style: none;
 }
+
 .wrapper ul li {
 	font-size: 26px;
 	width: 75px;
@@ -279,10 +322,12 @@ form .submit:focus {
 	cursor: pointer;
 	float: left;
 }
+
 .wrapper ul li .fa {
 	color: #FFFFFF;
 	margin-top: 10px;
 }
+
 .wrapper ul li:hover .fa-phone {
 	color: #25d366;
 	text-shadow: 0 0 15px #25d366;
