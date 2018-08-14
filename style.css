@@ -30,7 +30,7 @@ img {
 	font-size: 1em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 760px) {
 	.title{
 		font-size: 3.2rem;
 	}
@@ -90,7 +90,7 @@ nav a:focus {
 	color: #c1c1c1;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 760px) {
 	nav {
 
 	}
@@ -104,7 +104,7 @@ nav a:focus {
 	color: white;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 760px) {
 	.home {
 		height: 100vh;
 		padding-top: 30vh;
@@ -137,7 +137,7 @@ nav a:focus {
 	color: #4EE2EC;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 760px) {
 	.about {
 		height: 100vh;
 		padding-top: 7vh;
@@ -195,7 +195,7 @@ nav a:focus {
 	background-position: center;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 760px) {
 	.portfolio {
 		height: 100vh;
 		padding-top: 9vh;
@@ -233,14 +233,14 @@ nav a:focus {
 	margin: 1em;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 760px) {
 	.item {
 		width: 50%;
 		float: left;
 	}
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 760px) {
 	.item {
 		width: 33.33333333%;
 		overflow: hidden;
@@ -259,7 +259,7 @@ nav a:focus {
 	background-position: center;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 760px) {
 	.contact {
 		height: 100vh;
 		padding-top: 9vh;
