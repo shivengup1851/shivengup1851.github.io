@@ -314,49 +314,59 @@ form .submit:focus {
 	background-color: #ed594e;
 }
 
-.wrapper {
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	display: flex;
-	left: 358px;
+footer {
+  background-color: #303030;
+  background-attachment: fixed;
+  padding-top: 1.8rem;
+  padding-bottom: 8rem;
+  text-align: center;
 }
 
-.wrapper ul {
+footer ul {
 	list-style: none;
 }
-
-.wrapper ul li {
+.main-container {
+      float: left;
+      position: relative;
+      left: 50%;
+ }
+ .fixer-container {
+      float: left;
+      position: relative;
+      left: -50%;
+ }
+footer ul li {
+	display: inline-block;
 	font-size: 26px;
 	width: 75px;
 	height: 75px;
 	line-height: 75px;
 	margin: 0 22px;
 	cursor: pointer;
-	float: left;
 }
-
-.wrapper ul li .fa {
+footer ul li .fa {
 	color: #FFFFFF;
 	margin-top: 10px;
 }
 
-.wrapper ul li:hover .fa-phone {
+footer ul li:hover .fa-phone {
 	color: #25d366;
 	text-shadow: 0 0 15px #25d366;
 }
 
-.wrapper ul li:hover .fa-envelope {
+footer ul li:hover .fa-envelope {
 	color: #FFFFFF;
 	text-shadow: 0 0 15px #FFFFFF;
 }
 
-.wrapper ul li:hover .fa-linkedin-in {
+footer ul li:hover .fa-linkedin-in {
 	color: #007bb5;
 	text-shadow: 0 0 15px #007bb5;
 }
 
-.wrapper ul li:hover .fa-github {
+footer ul li:hover .fa-github {
 	color: #c9510c;
 	text-shadow: 0 0 15px #c9510c;
 }
+
+
