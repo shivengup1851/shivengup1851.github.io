@@ -126,7 +126,7 @@ nav a:focus {
 	font-size: 34px;
 }
 
-.about p {
+.about p { 
 	color: #ffffff;
 	letter-spacing: 1.5px;
 	position: relative;
@@ -139,7 +139,7 @@ nav a:focus {
 
 @media screen and (min-width: 760px) {
 	.about {
-		height: 100vh;
+		height: 110vh;
 		padding-top: 7vh;
 	}
 }
