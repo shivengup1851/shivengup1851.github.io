@@ -90,12 +90,6 @@ nav a:focus {
 	color: #c1c1c1;
 }
 
-@media screen and (min-width: 760px) {
-	nav {
-
-	}
-}
-
 .home {
 	background-image: url(https://shivengup1851.github.io/imgs/bghome.jpg);
 	background-size: cover;
