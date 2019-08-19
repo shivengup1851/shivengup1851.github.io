@@ -5,6 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
+/* =======================================================
+*
+* 	Template Style 
+*
+* ======================================================= */
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -56,7 +61,7 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, figure {
+h1, h2, h3, h4, h5, h6, figure {
   color: #355C7D;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
@@ -259,4 +264,87 @@ h1, h2, h3, figure {
 }
 #fh5co-features .feature-left p a {
   color: #000 !important;
+}
+
+#fh5co-about,
+#fh5co-resume,
+#fh5co-skills,
+#fh5co-started,
+#fh5co-work,
+#fh5co-blog,
+#fh5co-pricing,
+#fh5co-contact {
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-about,
+  #fh5co-resume,
+  #fh5co-skills,
+  #fh5co-started,
+  #fh5co-work,
+  #fh5co-blog,
+  #fh5co-pricing,
+  #fh5co-contact {
+    padding: 3em 0;
+  }
+}
+
+#fh5co-started {
+  border-bottom: none;
+}
+
+.fh5co-bg-dark {
+  background: #2F3C4F;
+  background: #f4f0db;
+}
+.fh5co-bg-dark .fh5co-heading h2 {
+  color: #355C7D !important;
+}
+
+.info {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  float: left;
+}
+@media screen and (max-width: 768px) {
+  .info {
+    margin-bottom: 3em;
+  }
+}
+.info li {
+  width: 100%;
+  float: left;
+  list-style: none;
+  padding: 10px 0;
+}
+.info li:first-child {
+  padding-top: 0;
+}
+
+.fh5co-social-icons {
+  margin: 0;
+  padding: 0;
+}
+.fh5co-social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.fh5co-social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #f4f0db;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.fh5co-social-icons li a i {
+  font-size: 20px;
 }
